@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const NavWrapper = styled.div`
   border-bottom: 8px solid rgb(189, 35, 125);

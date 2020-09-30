@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import { NavWrapper, NavContents } from "./NavStyles";
 
 const Nav = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "hotpink";
+  }
+
   return (
     <NavWrapper>
       <NavContents>
@@ -13,6 +20,8 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
           }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
         >
           {" "}
           Home{" "}
@@ -25,6 +34,8 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
           }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
         >
           {" "}
           Interview{" "}
@@ -37,6 +48,8 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
           }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
         >
           {" "}
           Projects{" "}
@@ -49,6 +62,8 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
           }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
         >
           {" "}
           Contact{" "}
