@@ -19,6 +19,18 @@ const Nav = () => {
         </Link>
 
         <Link
+          to={"/interview"}
+          style={{
+            color: "hotpink",
+            textDecoration: "none",
+            textAlign: "center",
+          }}
+        >
+          {" "}
+          Interview{" "}
+        </Link>
+
+        <Link
           to={"/projects"}
           style={{
             color: "hotpink",
