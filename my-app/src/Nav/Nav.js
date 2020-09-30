@@ -20,6 +20,7 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
             fontSize: '1.8rem',
+            marginBottom: '1%',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -35,6 +36,7 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
             fontSize: '1.8rem',
+            marginBottom: '1%',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -50,6 +52,7 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
             fontSize: '1.8rem',
+            marginBottom: '1%',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -65,6 +68,7 @@ const Nav = () => {
             textDecoration: "none",
             textAlign: "center",
             fontSize: '1.8rem',
+            marginBottom: '1%',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -72,10 +76,6 @@ const Nav = () => {
           {" "}
           Contact{" "}
         </Link>
-
-        <header>
-          <p>Nav</p>
-        </header>
       </NavContents>
     </NavWrapper>
   );
