@@ -19,6 +19,7 @@ const Nav = () => {
             color: "hotpink",
             textDecoration: "none",
             textAlign: "center",
+            fontSize: '1.8rem',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -33,6 +34,7 @@ const Nav = () => {
             color: "hotpink",
             textDecoration: "none",
             textAlign: "center",
+            fontSize: '1.8rem',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -47,6 +49,7 @@ const Nav = () => {
             color: "hotpink",
             textDecoration: "none",
             textAlign: "center",
+            fontSize: '1.8rem',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -61,6 +64,7 @@ const Nav = () => {
             color: "hotpink",
             textDecoration: "none",
             textAlign: "center",
+            fontSize: '1.8rem',
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
