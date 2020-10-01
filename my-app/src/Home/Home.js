@@ -1,14 +1,15 @@
 import React from "react";
 import Nav from "../Nav/Nav"
+import { HomeWrapper} from "../Nav/NavStyles";
 
 const Home = () => {
   return (
-    <div>
+    <HomeWrapper>
          <Nav />
-      <header>
+      <body>
         <p>Home</p>
-      </header>
-    </div>
+      </body>
+      </HomeWrapper>
   );
 }
 

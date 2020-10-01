@@ -19,3 +19,8 @@ export const NavContents = styled.div`
     flex-direction: column;
   }
 `;
+
+export const HomeWrapper = styled.div`
+  background-color: hotpink;
+  width: 100%;
+`;
