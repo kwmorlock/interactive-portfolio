@@ -17,3 +17,13 @@ display:flex;
     align-items: center;
   }
 `;
+
+export const FlexHomeTwo = styled.div`
+display:flex;
+  flex-direction:row;
+  @media (max-width: 765px) {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+`;
