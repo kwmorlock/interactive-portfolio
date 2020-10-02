@@ -50,6 +50,24 @@ const Contact = () => {
           </button>
         </ContactLeft>
       </FlexContactTwo>
+      <FlexContact>
+        <ContactLeft>
+          <h2 class="mysite"> LinkedIn</h2>
+          <p> Connect with me in a professional environment.</p>
+          <button
+            class="bodybutton"
+            onclick="window.location.href = 'https://www.linkedin.com/in/kwmorlock/'"
+          >
+            {" "}
+            <a target="_blank" href="https://www.linkedin.com/in/kwmorlock/">
+              LinkedIn!
+            </a>
+          </button>
+        </ContactLeft>
+        <ContactLeft>
+          <img src={require("../Images/supplies.jpg")} />
+        </ContactLeft>
+      </FlexContact>
     </HomeWrapper>
   );
 };
