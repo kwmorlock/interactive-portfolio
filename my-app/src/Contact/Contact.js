@@ -30,7 +30,7 @@ const Contact = () => {
             onclick="_blank"
             href="https://github.com/kwmorlock"
             onMouseOver={changeColor}
-          onMouseLeave={changeColors}
+            onMouseLeave={changeColors}
           >
             {" "}
             GitHub
@@ -56,7 +56,7 @@ const Contact = () => {
             onclick="_blank"
             href="https://twitter.com/KMCodes"
             onMouseOver={changeColor}
-          onMouseLeave={changeColors}
+            onMouseLeave={changeColors}
           >
             {" "}
             Twitter
@@ -72,7 +72,7 @@ const Contact = () => {
             onclick="_blank"
             href="https://www.linkedin.com/in/kwmorlock/"
             onMouseOver={changeColor}
-          onMouseLeave={changeColors}
+            onMouseLeave={changeColors}
           >
             {" "}
             LinkedIn

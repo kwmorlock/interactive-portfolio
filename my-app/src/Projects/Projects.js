@@ -1,15 +1,15 @@
 import React from "react";
-import Nav from "../Nav/Nav"
+import Nav from "../Nav/Nav";
 
 const Projects = () => {
   return (
     <div>
-        <Nav />
+      <Nav />
       <header>
         <p>Projects</p>
       </header>
     </div>
   );
-}
+};
 
 export default Projects;
