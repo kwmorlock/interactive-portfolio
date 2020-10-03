@@ -20,7 +20,7 @@ const Contact = () => {
           >
             {" "}
             <a target="_blank" href="https://github.com/kwmorlock">
-              My GitHub!
+              GitHub
             </a>
           </ButtonContact>
         </ContactLeft>
@@ -39,30 +39,30 @@ const Contact = () => {
             Check out some of my posts on Twitter relating to coding and tech
             for both the present and the potential future of both.
           </p>
-          <button
+          <ButtonContact
             class="bodybutton"
             onclick="window.location.href = 'https://twitter.com/KMCodes'"
           >
             {" "}
             <a target="_blank" href="https://twitter.com/KMCodes">
-              My Twitter!
+              Twitter
             </a>
-          </button>
+          </ButtonContact>
         </ContactLeft>
       </FlexContactTwo>
       <FlexContact>
         <ContactLeft>
           <h2 class="mysite"> LinkedIn</h2>
           <p> Connect with me in a professional environment.</p>
-          <button
+          <ButtonContact
             class="bodybutton"
             onclick="window.location.href = 'https://www.linkedin.com/in/kwmorlock/'"
           >
             {" "}
             <a target="_blank" href="https://www.linkedin.com/in/kwmorlock/">
-              LinkedIn!
+              LinkedIn
             </a>
-          </button>
+          </ButtonContact>
         </ContactLeft>
         <ContactLeft>
           <img src={require("../Images/supplies.jpg")} />
