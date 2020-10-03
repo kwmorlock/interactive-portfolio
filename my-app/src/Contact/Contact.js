@@ -9,6 +9,12 @@ import {
 } from "./ContactStyles";
 
 const Contact = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "hotpink";
+  }
   return (
     <HomeWrapper>
       <Nav />
@@ -23,6 +29,8 @@ const Contact = () => {
             class="bodybutton"
             onclick="_blank"
             href="https://github.com/kwmorlock"
+            onMouseOver={changeColor}
+          onMouseLeave={changeColors}
           >
             {" "}
             GitHub
@@ -47,6 +55,8 @@ const Contact = () => {
             class="bodybutton"
             onclick="_blank"
             href="https://twitter.com/KMCodes"
+            onMouseOver={changeColor}
+          onMouseLeave={changeColors}
           >
             {" "}
             Twitter
@@ -61,6 +71,8 @@ const Contact = () => {
             class="bodybutton"
             onclick="_blank"
             href="https://www.linkedin.com/in/kwmorlock/"
+            onMouseOver={changeColor}
+          onMouseLeave={changeColors}
           >
             {" "}
             LinkedIn
