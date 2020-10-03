@@ -1,7 +1,12 @@
 import React from "react";
 import { HomeWrapper } from "../Nav/NavStyles";
 import Nav from "../Nav/Nav";
-import { ContactLeft, FlexContact, FlexContactTwo, ButtonContact } from "./ContactStyles";
+import {
+  ContactLeft,
+  FlexContact,
+  FlexContactTwo,
+  ButtonContact,
+} from "./ContactStyles";
 
 const Contact = () => {
   return (
@@ -16,12 +21,11 @@ const Contact = () => {
           </p>
           <ButtonContact
             class="bodybutton"
-            onclick="window.location.href = 'https://github.com/kwmorlock'"
+            onclick="_blank"
+            href="https://github.com/kwmorlock"
           >
             {" "}
-            <a target="_blank" href="https://github.com/kwmorlock">
-              GitHub
-            </a>
+            GitHub
           </ButtonContact>
         </ContactLeft>
         <ContactLeft>
@@ -41,12 +45,11 @@ const Contact = () => {
           </p>
           <ButtonContact
             class="bodybutton"
-            onclick="window.location.href = 'https://twitter.com/KMCodes'"
+            onclick="_blank"
+            href="https://twitter.com/KMCodes"
           >
             {" "}
-            <a target="_blank" href="https://twitter.com/KMCodes">
-              Twitter
-            </a>
+            Twitter
           </ButtonContact>
         </ContactLeft>
       </FlexContactTwo>
@@ -56,12 +59,11 @@ const Contact = () => {
           <p> Connect with me in a professional environment.</p>
           <ButtonContact
             class="bodybutton"
-            onclick="window.location.href = 'https://www.linkedin.com/in/kwmorlock/'"
+            onclick="_blank"
+            href="https://www.linkedin.com/in/kwmorlock/"
           >
             {" "}
-            <a target="_blank" href="https://www.linkedin.com/in/kwmorlock/">
-              LinkedIn
-            </a>
+            LinkedIn
           </ButtonContact>
         </ContactLeft>
         <ContactLeft>

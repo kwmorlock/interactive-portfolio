@@ -28,14 +28,17 @@ display:flex;
   }
 `;
 
-export const ButtonContact = styled.button`
+export const ButtonContact = styled.a`
 background-color: black;
 border-color: black;
+color: hotpink;
 font-color: hotpink;
 margin-top: -30px; 
-margin: 2%;
+margin: 0 auto;
 width: 45%;
 border-radius: 12px;
 font-size: 1.2rem;
 margin: 0 auto;
+text-align: center;
+  text-decoration: none;
 `;
