@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeWrapper } from "../Nav/NavStyles";
 import Nav from "../Nav/Nav";
-import { ContactLeft, FlexContact, FlexContactTwo } from "./ContactStyles";
+import { ContactLeft, FlexContact, FlexContactTwo, ButtonContact } from "./ContactStyles";
 
 const Contact = () => {
   return (
@@ -14,7 +14,7 @@ const Contact = () => {
             {" "}
             Connect on github to check out some of my clean and readable code.
           </p>
-          <button
+          <ButtonContact
             class="bodybutton"
             onclick="window.location.href = 'https://github.com/kwmorlock'"
           >
@@ -22,7 +22,7 @@ const Contact = () => {
             <a target="_blank" href="https://github.com/kwmorlock">
               My GitHub!
             </a>
-          </button>
+          </ButtonContact>
         </ContactLeft>
         <ContactLeft>
           <img src={require("../Images/readablecode.png")} />

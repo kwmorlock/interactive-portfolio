@@ -27,3 +27,15 @@ display:flex;
     align-items: center;
   }
 `;
+
+export const ButtonContact = styled.button`
+background-color: black;
+border-color: black;
+font-color: hotpink;
+margin-top: -30px; 
+margin: 10px;
+width: 40%;
+border-radius: 12px;
+font-size: 2rem;
+margin: 0 auto;
+`;
