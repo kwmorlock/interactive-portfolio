@@ -10,6 +10,12 @@ import {
 
 
 const Projects = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "hotpink";
+  }
   return (
     <div>
       <Nav />
