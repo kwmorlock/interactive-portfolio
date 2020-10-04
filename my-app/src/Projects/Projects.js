@@ -68,6 +68,31 @@ const Projects = () => {
           </ButtonProjects>
         </ProjectsLeft>
       </FlexProjectsTwo>
+      <FlexProjects>
+        <ProjectsLeft>
+          <h2 class="mysite"> Project 3</h2>
+          <p>
+            {" "}
+            Quite possibly one of the best coders in all the land. If you like
+            dollars, I can make you many dollars. If you want a pretty website,
+            I can make you a super pretty website. To top it all off check out
+            these eyes they can find any syntax error.
+          </p>
+          <ButtonProjects
+            class="bodybutton"
+            onclick="_blank"
+            href="https://www.linkedin.com/in/kwmorlock/"
+            onMouseOver={changeColor}
+            onMouseLeave={changeColors}
+          >
+            {" "}
+            Project 3
+          </ButtonProjects>
+        </ProjectsLeft>
+        <ProjectsLeft>
+          <img src={require("../Images/supplies.jpg")} />
+        </ProjectsLeft>
+      </FlexProjects>
     </HomeWrapper>
   );
 };
