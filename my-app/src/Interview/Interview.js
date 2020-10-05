@@ -12,9 +12,41 @@ const Interview = () => {
   return (
     <div>
       <Nav />
-      <header>
+      {/* <header>
         <p>Interview</p>
-      </header>
+      </header> */}
+       <div
+        style={{
+          // marginTop: "-90px",
+          // marginLeft: "90px",
+          // zIndex:"-1",
+          // height: "10%",
+        }}
+      >
+        <Link
+          to={"/"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            // margin: "0 auto",
+            textDecoration: "none",
+            // height: "10%",
+            // marginTop: "-200px",
+            // textAlign: "center",
+            // marginTop: "-90px",
+          // marginLeft: "90px",
+          
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          "I'm doing great!"{" "}
+        </Link>
+      </div>
       <div
         className="video"
         style={{
@@ -24,6 +56,9 @@ const Interview = () => {
           height: 0,
           display: "flex",
           justifyContent: "center",
+          // maxWidth: "90%",
+          // maxHeight: "50%",
+          // zIndex: "-1",
         }}
       >
         <iframe
@@ -38,7 +73,14 @@ const Interview = () => {
           frameBorder="0"
         />
       </div>
-      <div>
+      {/* <div
+        style={{
+          // marginTop: "-90px",
+          // marginLeft: "90px",
+          // zIndex:"-1",
+          // height: "10%",
+        }}
+      >
         <Link
           to={"/"}
           style={{
@@ -47,11 +89,15 @@ const Interview = () => {
             width: "65%",
             borderRadius: "12px",
             fontSize: "2rem",
-            margin: "0 auto",
+            // margin: "0 auto",
             textDecoration: "none",
-            height: "10%",
-            marginTop: "20px",
-            textAlign: "center",
+            // height: "10%",
+            // marginTop: "-200px",
+            // textAlign: "center",
+            // marginTop: "-90px",
+          // marginLeft: "90px",
+          // zIndex: "1",
+          
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -59,8 +105,7 @@ const Interview = () => {
           {" "}
           "I'm doing great!"{" "}
         </Link>
-      </div>
-      ;
+      </div> */}
     </div>
   );
 };
