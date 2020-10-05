@@ -1,7 +1,14 @@
 import React from "react";
 import Nav from "../Nav/Nav";
+import { Link } from "react-router-dom";
 
 const Interview = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "black";
+  }
   return (
     <div>
       <Nav />
@@ -30,6 +37,28 @@ const Interview = () => {
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
           frameBorder="0"
         />
+      </div>
+      <div>
+        <Link
+          to={"/"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            margin: "0 auto",
+            textDecoration: "none",
+            height: "10%",
+            marginTop: "20px",
+            textAlign: "center",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          "I'm doing great!"{" "}
+        </Link>
       </div>
       ;
     </div>
