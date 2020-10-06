@@ -12,17 +12,7 @@ const Interview = () => {
   return (
     <div>
       <Nav />
-      {/* <header>
-        <p>Interview</p>
-      </header> */}
-       <div
-        style={{
-          // marginTop: "-90px",
-          // marginLeft: "90px",
-          // zIndex:"-1",
-          // height: "10%",
-        }}
-      >
+      <div>
         <Link
           to={"/"}
           style={{
@@ -79,39 +69,6 @@ const Interview = () => {
           frameBorder="0"
         />
       </div>
-      {/* <div
-        style={{
-          // marginTop: "-90px",
-          // marginLeft: "90px",
-          // zIndex:"-1",
-          // height: "10%",
-        }}
-      >
-        <Link
-          to={"/"}
-          style={{
-            color: "black",
-            fontColor: "black",
-            width: "65%",
-            borderRadius: "12px",
-            fontSize: "2rem",
-            // margin: "0 auto",
-            textDecoration: "none",
-            // height: "10%",
-            // marginTop: "-200px",
-            // textAlign: "center",
-            // marginTop: "-90px",
-          // marginLeft: "90px",
-          // zIndex: "1",
-          
-          }}
-          onMouseOver={changeColor}
-          onMouseLeave={changeColors}
-        >
-          {" "}
-          "I'm doing great!"{" "}
-        </Link>
-      </div> */}
     </div>
   );
 };
