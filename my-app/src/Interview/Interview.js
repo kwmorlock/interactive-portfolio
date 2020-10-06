@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../Nav/Nav";
 import { Link } from "react-router-dom";
+import { InterviewContents } from "./InterviewStyles";
 
 const Interview = () => {
   function changeColor(e) {
@@ -12,7 +13,7 @@ const Interview = () => {
   return (
     <div>
       <Nav />
-      <div>
+      <InterviewContents>
         <Link
           to={"/"}
           style={{
@@ -61,7 +62,7 @@ const Interview = () => {
           {" "}
           "I'm doing great!"{" "}
         </Link>
-      </div>
+      </InterviewContents>
       <div
         className="video"
         style={{
