@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import Contact from "./Contact/Contact";
 import Projects from "./Projects/Projects";
 import Interview from "./Interview/Interview";
+import Good from "./Interview/HowAreYou/Good";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
       </Route>
       <Route exact path="/interview">
         <Interview />
+      </Route>
+      <Route exact path="/interview/great">
+        <Good />
       </Route>
     </div>
   );
