@@ -47,7 +47,7 @@ const Interview = () => {
           Say nothing.{" "}
         </Link>
         <Link
-          to={"/"}
+          to={"/interview/great"}
           style={{
             color: "black",
             fontColor: "black",
