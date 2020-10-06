@@ -31,14 +31,23 @@ const Interview = () => {
             width: "65%",
             borderRadius: "12px",
             fontSize: "2rem",
-            // margin: "0 auto",
             textDecoration: "none",
-            // height: "10%",
-            // marginTop: "-200px",
-            // textAlign: "center",
-            // marginTop: "-90px",
-          // marginLeft: "90px",
-          
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          "I could be better"{" "}
+        </Link>
+        <Link
+          to={"/"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
           }}
           onMouseOver={changeColor}
           onMouseLeave={changeColors}
@@ -56,9 +65,6 @@ const Interview = () => {
           height: 0,
           display: "flex",
           justifyContent: "center",
-          // maxWidth: "90%",
-          // maxHeight: "50%",
-          // zIndex: "-1",
         }}
       >
         <iframe
