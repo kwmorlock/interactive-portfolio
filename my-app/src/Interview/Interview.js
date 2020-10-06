@@ -79,8 +79,8 @@ const Interview = () => {
             position: "absolute",
             display: "flex",
             justifyContent: "center",
-            width: "80%",
-            height: "80%",
+            width: "70%",
+            height: "70%",
           }}
           src="https://www.youtube.com/embed/dQw4w9WgXcQ"
           frameBorder="0"
