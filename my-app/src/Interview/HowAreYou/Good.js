@@ -44,6 +44,22 @@ const Good = () => {
         {" "}
         Option 2{" "}
       </Link>
+      <Link
+        to={"/"}
+        style={{
+          color: "black",
+          fontColor: "black",
+          width: "65%",
+          borderRadius: "12px",
+          fontSize: "2rem",
+          textDecoration: "none",
+        }}
+        onMouseOver={changeColor}
+        onMouseLeave={changeColors}
+      >
+        {" "}
+        Option 3{" "}
+      </Link>
       <div
         className="video"
         style={{
