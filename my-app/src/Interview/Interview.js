@@ -15,7 +15,7 @@ const Interview = () => {
       <Nav />
       <InterviewContents>
         <Link
-          to={"/"}
+          to={"/interview/bad"}
           style={{
             color: "black",
             fontColor: "black",
