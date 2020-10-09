@@ -7,6 +7,7 @@ import Projects from "./Projects/Projects";
 import Interview from "./Interview/Interview";
 import Good from "./Interview/HowAreYou/Good";
 import Bad from "./Interview/HowAreYou/Bad";
+import Nothing from "./Interview/HowAreYou/Nothing";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </Route>
       <Route exact path="/interview/bad">
         <Bad />
+      </Route>
+      <Route exact path="/interview/nothing">
+        <Nothing />
       </Route>
     </div>
   );
