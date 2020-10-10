@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../../../Nav/Nav";
+import { Link } from "react-router-dom";
 
 const NothingTwo = () => {
   function changeColor(e) {
@@ -11,6 +12,22 @@ const NothingTwo = () => {
   return (
     <div>
       <Nav />
+      <Link
+        to={"/interview/nothingtwo"}
+        style={{
+          color: "black",
+          fontColor: "black",
+          width: "65%",
+          borderRadius: "12px",
+          fontSize: "2rem",
+          textDecoration: "none",
+        }}
+        onMouseOver={changeColor}
+        onMouseLeave={changeColors}
+      >
+        {" "}
+        Say Nothing Again{" "}
+      </Link>
       <div
         className="video"
         style={{
