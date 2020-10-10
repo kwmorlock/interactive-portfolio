@@ -31,7 +31,7 @@ const Interview = () => {
           "I could be better..."{" "}
         </Link>
         <Link
-          to={"/"}
+          to={"/interview/nothing"}
           style={{
             color: "black",
             fontColor: "black",
