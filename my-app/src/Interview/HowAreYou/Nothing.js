@@ -15,7 +15,7 @@ const Nothing = () => {
       <Nav />
       <InterviewContents>
         <Link
-          to={"/nothingtwo"}
+          to={"/interview/nothingtwo"}
           style={{
             color: "black",
             fontColor: "black",
