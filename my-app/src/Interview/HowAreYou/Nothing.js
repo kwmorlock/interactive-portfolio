@@ -15,7 +15,7 @@ const Nothing = () => {
       <Nav />
       <InterviewContents>
         <Link
-          to={"/"}
+          to={"/nothingtwo"}
           style={{
             color: "black",
             fontColor: "black",
@@ -28,7 +28,7 @@ const Nothing = () => {
           onMouseLeave={changeColors}
         >
           {" "}
-          Option 1{" "}
+          Say Nothing Again{" "}
         </Link>
         <Link
           to={"/"}
