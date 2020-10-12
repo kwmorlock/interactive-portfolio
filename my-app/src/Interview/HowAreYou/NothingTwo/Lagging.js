@@ -22,6 +22,22 @@ const Lagging = () => {
         {" "}
         Option 1{" "}
       </Link>
+      <Link
+        to={"/interview/nothingtwo"}
+        style={{
+          color: "black",
+          fontColor: "black",
+          width: "65%",
+          borderRadius: "12px",
+          fontSize: "2rem",
+          textDecoration: "none",
+        }}
+        onMouseOver={changeColor}
+        onMouseLeave={changeColors}
+      >
+        {" "}
+        Option 2{" "}
+      </Link>
       <div
         className="video"
         style={{
