@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from "../../../Nav/Nav";
 import { Link } from "react-router-dom";
+import { InterviewContents } from "../../InterviewStyles";
 
 const Lagging = () => {
   function changeColor(e) {
@@ -12,54 +13,56 @@ const Lagging = () => {
   return (
     <div>
       <Nav />
-      <Link
-        to={"/interview/nothingtwo"}
-        style={{
-          color: "black",
-          fontColor: "black",
-          width: "65%",
-          borderRadius: "12px",
-          fontSize: "2rem",
-          textDecoration: "none",
-        }}
-        onMouseOver={changeColor}
-        onMouseLeave={changeColors}
-      >
-        {" "}
-        Option 1{" "}
-      </Link>
-      <Link
-        to={"/interview/nothingtwo"}
-        style={{
-          color: "black",
-          fontColor: "black",
-          width: "65%",
-          borderRadius: "12px",
-          fontSize: "2rem",
-          textDecoration: "none",
-        }}
-        onMouseOver={changeColor}
-        onMouseLeave={changeColors}
-      >
-        {" "}
-        Option 2{" "}
-      </Link>
-      <Link
-        to={"/interview/nothingtwo"}
-        style={{
-          color: "black",
-          fontColor: "black",
-          width: "65%",
-          borderRadius: "12px",
-          fontSize: "2rem",
-          textDecoration: "none",
-        }}
-        onMouseOver={changeColor}
-        onMouseLeave={changeColors}
-      >
-        {" "}
-        Option 3{" "}
-      </Link>
+      <InterviewContents>
+        <Link
+          to={"/interview/nothingtwo"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          Option 1{" "}
+        </Link>
+        <Link
+          to={"/interview/nothingtwo"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          Option 2{" "}
+        </Link>
+        <Link
+          to={"/interview/nothingtwo"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          Option 3{" "}
+        </Link>
+      </InterviewContents>
       <div
         className="video"
         style={{
