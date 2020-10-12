@@ -3,6 +3,12 @@ import Nav from "../../../Nav/Nav";
 import { Link } from "react-router-dom";
 
 const Lagging = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "black";
+  }
   return (
     <div>
       <Nav />
