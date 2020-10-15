@@ -11,6 +11,7 @@ import Nothing from "./Interview/HowAreYou/Nothing";
 import NothingTwo from "./Interview/HowAreYou/NothingTwo/NothingTwo";
 import Lagging from "./Interview/HowAreYou/NothingTwo/Lagging";
 import Tech from "./Interview/HowAreYou/Skills/Tech"
+import Soft from "./Interview/HowAreYou/Skills/Soft"
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
       </Route>
       <Route exact path="/interview/tech">
         <Tech />
+      </Route>
+      <Route exact path="/interview/soft">
+        <Soft />
       </Route>
     </div>
   );
