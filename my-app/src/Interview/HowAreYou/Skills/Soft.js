@@ -11,6 +11,22 @@ const Soft = () => {
   return (
     <div>
       <Nav />
+      <Link
+          to={"/"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          Option 1{" "}
+        </Link>
       <div
         className="video"
         style={{
