@@ -20,13 +20,12 @@ const Projects = () => {
       <Nav />
       <FlexProjects>
         <ProjectsLeft>
-          <h2 class="mysite"> Project 1</h2>
+          <h2 class="mysite"> SaverLife</h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            SaverLife is a non-profit with the goal of helping people save their
+            first $400. Application was build using React, Node.js, SendGrid,
+            Redis, and Jest.
           </p>
           <ButtonProjects
             class="bodybutton"
