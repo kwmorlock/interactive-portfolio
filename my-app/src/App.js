@@ -4,14 +4,15 @@ import { Route } from "react-router-dom";
 import Home from "./Home/Home";
 import Contact from "./Contact/Contact";
 import Projects from "./Projects/Projects";
+import Feedback from "./Feedback/Feedback";
 import Interview from "./Interview/Interview";
 import Good from "./Interview/HowAreYou/Good";
 import Bad from "./Interview/HowAreYou/Bad";
 import Nothing from "./Interview/HowAreYou/Nothing";
 import NothingTwo from "./Interview/HowAreYou/NothingTwo/NothingTwo";
 import Lagging from "./Interview/HowAreYou/NothingTwo/Lagging";
-import Tech from "./Interview/HowAreYou/Skills/Tech"
-import Soft from "./Interview/HowAreYou/Skills/Soft"
+import Tech from "./Interview/HowAreYou/Skills/Tech";
+import Soft from "./Interview/HowAreYou/Skills/Soft";
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
       </Route>
       <Route exact path="/projects">
         <Projects />
+      </Route>
+      <Route exact path="/feedback">
+        <Feedback />
       </Route>
       <Route exact path="/interview">
         <Interview />
