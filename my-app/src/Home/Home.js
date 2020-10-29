@@ -12,10 +12,9 @@ const Home = () => {
           <h2 class="mysite"> Expert Programmer </h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            Welcome to my full stack developer portfolio! Feel free to snoop
+            around, and if you are looking for a unique experience check out
+            the interview section!
           </p>
         </HomeLeft>
         <HomeLeft>
