@@ -9,7 +9,7 @@ const Home = () => {
       <Nav />
       <FlexHome>
         <HomeLeft>
-          <h2 class="mysite"> Expert Programmer </h2>
+          <h2 class="mysite"> Full Stack Developer </h2>
           <p>
             {" "}
             Welcome to my full stack developer portfolio! Feel free to snoop
