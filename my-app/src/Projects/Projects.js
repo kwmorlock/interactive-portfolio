@@ -47,7 +47,7 @@ const Projects = () => {
           <img src={require("../Images/pinklaptop.jpeg")} />
         </ProjectsLeft>
         <ProjectsLeft>
-          <h2 class="mysite"> Project 2 </h2>
+          <h2 class="mysite"> Rent My Tech Stuff </h2>
           <p>
             {" "}
             Quite possibly one of the best coders in all the land. If you like
