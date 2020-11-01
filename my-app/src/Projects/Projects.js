@@ -50,10 +50,8 @@ const Projects = () => {
           <h2 class="mysite"> Rent My Tech Stuff </h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            Backend API built using Node, and Express. Can create user, login,
+            and perform crud operations for two user types.
           </p>
           <ButtonProjects
             class="bodybutton"
