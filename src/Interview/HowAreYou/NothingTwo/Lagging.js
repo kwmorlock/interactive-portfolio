@@ -75,6 +75,7 @@ const Lagging = () => {
         }}
       >
         <iframe
+          title={"Lagging"}
           style={{
             position: "absolute",
             display: "flex",
