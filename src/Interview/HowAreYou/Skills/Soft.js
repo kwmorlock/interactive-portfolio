@@ -75,6 +75,7 @@ const Soft = () => {
         }}
       >
         <iframe
+          title={"Soft"}
           style={{
             position: "absolute",
             display: "flex",
