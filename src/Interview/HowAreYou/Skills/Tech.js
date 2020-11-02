@@ -75,6 +75,7 @@ const Tech = () => {
         }}
       >
         <iframe
+          title={"Tech"}
           style={{
             position: "absolute",
             display: "flex",
