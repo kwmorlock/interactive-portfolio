@@ -75,6 +75,7 @@ const Interview = () => {
         }}
       >
         <iframe
+          title={"Interview"}
           style={{
             position: "absolute",
             display: "flex",
