@@ -39,12 +39,12 @@ const Projects = () => {
           </ButtonProjects>
         </ProjectsLeft>
         <ProjectsLeft>
-          <img src={require("../Images/readablecode.png")} />
+          <img src={require("../Images/readablecode.png")} alt={"readablecode"} />
         </ProjectsLeft>
       </FlexProjects>
       <FlexProjectsTwo>
         <ProjectsLeft>
-          <img src={require("../Images/pinklaptop.jpeg")} />
+          <img src={require("../Images/pinklaptop.jpeg")} alt={"pinklaptop"} />
         </ProjectsLeft>
         <ProjectsLeft>
           <h2 class="mysite"> Rent My Tech Stuff </h2>
@@ -87,7 +87,7 @@ const Projects = () => {
           </ButtonProjects>
         </ProjectsLeft>
         <ProjectsLeft>
-          <img src={require("../Images/supplies.jpg")} />
+          <img src={require("../Images/supplies.jpg")} alt={"supplies"} />
         </ProjectsLeft>
       </FlexProjects>
     </HomeWrapper>
