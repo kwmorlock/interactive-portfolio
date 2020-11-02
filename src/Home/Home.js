@@ -18,7 +18,7 @@ const Home = () => {
           </p>
         </HomeLeft>
         <HomeLeft>
-          <img src={require("../Images/pinkhairs.jpg")} />
+          <img src={require("../Images/pinkhairs.jpg")} alt={"pink"} />
         </HomeLeft>
       </FlexHome>
       <FlexHomeTwo>
