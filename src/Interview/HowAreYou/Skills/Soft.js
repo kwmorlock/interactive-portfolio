@@ -1,7 +1,7 @@
 import React from "react";
-import Nav from "../../Nav/Nav";
+import Nav from "../../../Nav/Nav";
 import { Link } from "react-router-dom";
-import { InterviewContents } from "../InterviewStyles";
+import { InterviewContents } from "../../InterviewStyles";
 
 const Soft = () => {
   function changeColor(e) {
