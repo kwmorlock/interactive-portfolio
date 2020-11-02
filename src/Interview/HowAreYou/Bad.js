@@ -75,6 +75,7 @@ const Bad = () => {
         }}
       >
         <iframe
+          title={"Bad"}
           style={{
             position: "absolute",
             display: "flex",
