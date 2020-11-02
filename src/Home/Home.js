@@ -23,7 +23,7 @@ const Home = () => {
       </FlexHome>
       <FlexHomeTwo>
         <HomeLeft>
-          <img src={require("../Images/pinkflowers.jpg")} />
+          <img src={require("../Images/pinkflowers.jpg")} alt={"flower"}/>
         </HomeLeft>
         <HomeLeft>
           <h2 class="mysite"> Expert Programmer </h2>
@@ -48,7 +48,7 @@ const Home = () => {
           </p>
         </HomeLeft>
         <HomeLeft>
-          <img src={require("../Images/lightbulb.jpg")} />
+          <img src={require("../Images/lightbulb.jpg")} alt={"lightbulb"} />
         </HomeLeft>
       </FlexHome>
     </HomeWrapper>
