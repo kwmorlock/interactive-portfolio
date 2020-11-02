@@ -37,12 +37,12 @@ const Contact = () => {
           </ButtonContact>
         </ContactLeft>
         <ContactLeft>
-          <img src={require("../Images/readablecode.png")} />
+          <img src={require("../Images/readablecode.png")} alt={"temp"}/>
         </ContactLeft>
       </FlexContact>
       <FlexContactTwo>
         <ContactLeft>
-          <img src={require("../Images/pinklaptop.jpeg")} />
+          <img src={require("../Images/pinklaptop.jpeg")} alt={"tempthree"} />
         </ContactLeft>
         <ContactLeft>
           <h2 class="mysite"> Twitter </h2>
@@ -79,7 +79,7 @@ const Contact = () => {
           </ButtonContact>
         </ContactLeft>
         <ContactLeft>
-          <img src={require("../Images/supplies.jpg")} />
+          <img src={require("../Images/supplies.jpg")} alt={"temptwo"}/>
         </ContactLeft>
       </FlexContact>
     </HomeWrapper>
