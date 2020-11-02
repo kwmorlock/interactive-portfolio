@@ -75,6 +75,7 @@ const Nothing = () => {
         }}
       >
         <iframe
+          title={"Nothing"}
           style={{
             position: "absolute",
             display: "flex",
