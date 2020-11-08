@@ -1,12 +1,30 @@
 import React from "react";
 import Nav from "../../../../Nav/Nav";
+import { Link } from "react-router-dom";
 import { InterviewContents } from "../../../InterviewStyles";
 
 const Sorry = () => {
   return (
     <div>
       <Nav />
-      <InterviewContents></InterviewContents>
+      <InterviewContents>
+        <Link
+          to={"/interview/"}
+          style={{
+            color: "black",
+            fontColor: "black",
+            width: "65%",
+            borderRadius: "12px",
+            fontSize: "2rem",
+            textDecoration: "none",
+          }}
+          onMouseOver={changeColor}
+          onMouseLeave={changeColors}
+        >
+          {" "}
+          Back to start{" "}
+        </Link>
+      </InterviewContents>
       <div
         className="video"
         style={{
