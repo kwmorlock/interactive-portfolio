@@ -39,7 +39,10 @@ const Projects = () => {
           </ButtonProjects>
         </ProjectsLeft>
         <ProjectsLeft>
-          <img src={require("../Images/readablecode.png")} alt={"readablecode"} />
+          <img
+            src={require("../Images/readablecode.png")}
+            alt={"readablecode"}
+          />
         </ProjectsLeft>
       </FlexProjects>
       <FlexProjectsTwo>
@@ -67,18 +70,19 @@ const Projects = () => {
       </FlexProjectsTwo>
       <FlexProjects>
         <ProjectsLeft>
-          <h2 class="mysite"> Project 3</h2>
+          <h2 class="mysite"> Graph Traversal</h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            A pre-generated graph consisting of 500 rooms. A traversal path was
+            made with directions that, when walked in order, will visit every
+            room on the map at least once. This is done in under 2000 steps, and
+            written with Python. Constructed a traversal graph with algorithms
+            written for finding connected components.
           </p>
           <ButtonProjects
             class="bodybutton"
             onclick="_blank"
-            href="https://www.linkedin.com/in/kwmorlock/"
+            href="https://github.com/kwmorlock/Graphs"
             onMouseOver={changeColor}
             onMouseLeave={changeColors}
           >
