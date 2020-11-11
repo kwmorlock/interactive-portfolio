@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 import { InterviewContents } from "../../../InterviewStyles";
 
 const Sorry = () => {
+  function changeColor(e) {
+    e.target.style.color = "fuchsia";
+  }
+  function changeColors(e) {
+    e.target.style.color = "black";
+  }
   return (
     <div>
       <Nav />
