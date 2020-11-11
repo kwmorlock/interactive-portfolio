@@ -35,7 +35,7 @@ const Projects = () => {
             onMouseLeave={changeColors}
           >
             {" "}
-            Project 1
+            Github
           </ButtonProjects>
         </ProjectsLeft>
         <ProjectsLeft>
@@ -64,7 +64,7 @@ const Projects = () => {
             onMouseLeave={changeColors}
           >
             {" "}
-            Project 2
+            Github
           </ButtonProjects>
         </ProjectsLeft>
       </FlexProjectsTwo>
@@ -87,7 +87,7 @@ const Projects = () => {
             onMouseLeave={changeColors}
           >
             {" "}
-            Project 3
+            Github
           </ButtonProjects>
         </ProjectsLeft>
         <ProjectsLeft>
