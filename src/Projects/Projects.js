@@ -30,7 +30,7 @@ const Projects = () => {
           <ButtonProjects
             class="bodybutton"
             onclick="_blank"
-            href="https://github.com/kwmorlock"
+            href="https://github.com/Lambda-School-Labs/Labs25-SaverLife-TeamB-be"
             onMouseOver={changeColor}
             onMouseLeave={changeColors}
           >
