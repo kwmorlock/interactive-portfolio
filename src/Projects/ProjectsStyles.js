@@ -33,12 +33,15 @@ export const ButtonProjects = styled.a`
   border-color: black;
   color: hotpink;
   font-color: hotpink;
-  width: 65%;
   border-radius: 12px;
   font-size: 2rem;
   margin: 0 auto;
   text-decoration: none;
-  height: 10%;
+  height: 5%;
   margin-top: 20px;
   text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 `;
