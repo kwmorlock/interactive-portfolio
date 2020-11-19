@@ -5,6 +5,9 @@ const About = () => {
   return (
     <div>
       <Nav />
+      <div>
+        <h1>About Me</h1>
+      </div>
     </div>
   );
 };
