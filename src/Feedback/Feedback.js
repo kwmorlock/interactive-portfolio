@@ -7,8 +7,8 @@ const Feedback = () => {
     <HomeWrapper>
       <Nav />
       <div>
-        <h1>Feedback</h1>
-        <p>
+        <h1 style={{textAlign:'center'}}>Feedback</h1>
+        <p style={{textAlign:'center', margin: '40px'}}>
           Feedback is very important to me, whether that feedback is from those
           I'm working under, those that are working under me, or my peers.
         </p>
