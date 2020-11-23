@@ -18,6 +18,7 @@ const About = () => {
         </p>
         <h2>Myers Briggs</h2>
         <p>ENTJ-A</p>
+        <img src={require("../Images/entja.png")} alt={"entja"} />
       </div>
     </div>
   );
