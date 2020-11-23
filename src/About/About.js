@@ -16,6 +16,8 @@ const About = () => {
           alive more so than ever and it is one of my driving forces in my
           journey as a full stack developer.
         </p>
+        <h2>Myers Briggs</h2>
+        <p>ENTJ-A</p>
       </div>
     </div>
   );
