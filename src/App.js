@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import Contact from "./Contact/Contact";
 import Projects from "./Projects/Projects";
 import Feedback from "./Feedback/Feedback";
+import About from "./About/About";
 import Interview from "./Interview/Interview";
 import Good from "./Interview/HowAreYou/Good";
 import Bad from "./Interview/HowAreYou/Bad";
@@ -29,6 +30,9 @@ function App() {
       </Route>
       <Route exact path="/feedback">
         <Feedback />
+      </Route>
+      <Route exact path="/about">
+        <About />
       </Route>
       <Route exact path="/interview">
         <Interview />
