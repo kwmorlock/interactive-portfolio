@@ -20,6 +20,7 @@ const About = () => {
         <p>ENTJ-A</p>
         <img src={require("../Images/entja.png")} alt={"entja"} />
         <h2>Professional Personality Test</h2>
+        <img src={require("../Images/personalitytest.png")} alt={"personalitytest"} />
       </div>
     </div>
   );
