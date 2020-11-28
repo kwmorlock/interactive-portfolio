@@ -18,9 +18,9 @@ const About = () => {
         </p>
         <h2>Myers Briggs</h2>
         <p>ENTJ-A</p>
-        <img src={require("../Images/entja.png")} alt={"entja"} />
+        <img src={require("../Images/entja.png")} alt={"entja"} height="70%" width="70%" />
         <h2>Professional Personality Test</h2>
-        <img src={require("../Images/personalitytest.png")} alt={"personalitytest"} />
+        <img src={require("../Images/personalitytest.png")} alt={"personalitytest"} height="70%" width="70%"/>
       </div>
     </div>
   );
