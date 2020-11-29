@@ -40,8 +40,8 @@ export const ButtonProjects = styled.a`
   height: 5%;
   margin-top: 20px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
 `;
