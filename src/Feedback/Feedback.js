@@ -29,6 +29,11 @@ const Feedback = () => {
           expectations on what we what from the ds team. Kenzie is also good at
           creating a team culture atmosphere.
         </p>
+        <p>
+          Steven S. : Great leadership abilities and excellent work in technical
+          skill on the front and back ends of the project. Great idea
+          suggestions and teamwork with the rest of the group
+        </p>
       </div>
     </HomeWrapper>
   );
