@@ -34,6 +34,10 @@ const Feedback = () => {
           skill on the front and back ends of the project. Great idea
           suggestions and teamwork with the rest of the group
         </p>
+        <p>
+          Henry N. : Kenzie always thinks of the questions that we need to know.
+          They always have good insight on how to proceed
+        </p>
       </div>
     </HomeWrapper>
   );
