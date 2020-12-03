@@ -38,6 +38,10 @@ const Feedback = () => {
           Henry N. : Kenzie always thinks of the questions that we need to know.
           They always have good insight on how to proceed
         </p>
+        <p>
+          Jesus G. : Kenzie provides much enthusiasm to the team for the
+          project. I appreciate how she took the lead in assigning roles.
+        </p>
       </div>
     </HomeWrapper>
   );
