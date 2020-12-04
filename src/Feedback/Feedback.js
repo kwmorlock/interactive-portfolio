@@ -42,6 +42,16 @@ const Feedback = () => {
           Jesus G. : Kenzie provides much enthusiasm to the team for the
           project. I appreciate how she took the lead in assigning roles.
         </p>
+        <p>
+          Michail B. : Kenzie is doing an amazing job communicating and leading
+          the team. Kenzie was one of the first people to suggest meeting with
+          Data Science and offered plenty of questions and ideas on how to
+          better communicate with the data science team. Kenzie is usually one
+          of the first people to take the initiative to both answer and pose key
+          ideas and questions. I think this is a great trait to have to keep the
+          gears moving when working on this project especially when we're
+          dealing with cross functional teams.
+        </p>
       </div>
     </HomeWrapper>
   );
