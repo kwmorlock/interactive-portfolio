@@ -15,6 +15,12 @@ const Feedback = () => {
       </div>
       <div>
         <h2 class="mysite"> Mentors</h2>
+        <p>
+          Christine F. : I loved working with Kenzie! She is a great team
+          member, always willing to help, ask questions, and offer ideas and
+          solutions. She has a remarkable ability to foster team culture and any
+          team would be lucky to have her on it!
+        </p>
       </div>
       <div>
         <h2 class="mysite"> Mentees</h2>
