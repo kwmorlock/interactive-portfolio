@@ -16,6 +16,19 @@ const Feedback = () => {
       <div>
         <h2 class="mysite"> Mentors</h2>
         <p>
+          Chelsea W. : I had the great pleasure of managing Kenzie as her time
+          as a Team Lead at Lambda School and I can say that she is an amazing
+          developer, hard worker, innovative thinker, and an outstanding person.
+          Kenzie has the personality to light up any room and make anyone feel
+          comfortable, which is why she was perfect for managing a group of
+          students. Not only did she lead her team with strength and compassion,
+          she also was always great at giving me the advice and feedback that I
+          needed to grow as a leader. Kenzie is not afraid to always put her
+          best foot forward no matter the circumstance. Kenzie will make an
+          amazing player to any team that she is put on. Don't hesitate with
+          hiring a gem like her!
+        </p>
+        <p>
           Christine F. : I loved working with Kenzie! She is a great team
           member, always willing to help, ask questions, and offer ideas and
           solutions. She has a remarkable ability to foster team culture and any
