@@ -37,6 +37,11 @@ const Feedback = () => {
       </div>
       <div>
         <h2 class="mysite"> Mentees</h2>
+        <p>
+          You're doing a great job and I'm happy to have you as a team lead. You
+          have a lot of information to share and helped me understand the
+          culture of Lambda a bit more + what to expect. Thanks Kenzie!
+        </p>
       </div>
       <div>
         <h2 class="mysite"> Peers</h2>
