@@ -42,6 +42,12 @@ const Feedback = () => {
           have a lot of information to share and helped me understand the
           culture of Lambda a bit more + what to expect. Thanks Kenzie!
         </p>
+        <p>
+          Kenzie is an amazing team lead and I feel lucky to have her. She is
+          always available and ready to help. Having her as my team lead makes
+          my experience at Lambda significantly better. I don't know how you can
+          improve on awesome.
+        </p>
       </div>
       <div>
         <h2 class="mysite"> Peers</h2>
