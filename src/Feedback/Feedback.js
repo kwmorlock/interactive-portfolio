@@ -48,6 +48,11 @@ const Feedback = () => {
           my experience at Lambda significantly better. I don't know how you can
           improve on awesome.
         </p>
+        <p>
+          Kenzie's awesome, always on time with the 1:1/stand ups. They always
+          share great info and did a great job of making sure I was taken care
+          of.
+        </p>
       </div>
       <div>
         <h2 class="mysite"> Peers</h2>
