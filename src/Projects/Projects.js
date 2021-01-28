@@ -70,19 +70,19 @@ const Projects = () => {
       </FlexProjectsTwo>
       <FlexProjects>
         <ProjectsLeft>
-          <h2 class="mysite"> Graph Traversal</h2>
+          <h2 class="mysite"> LGBTQ Stories </h2>
           <p>
             {" "}
-            A pre-generated graph consisting of 500 rooms. A traversal path was
-            made with directions that, when walked in order, will visit every
-            room on the map at least once. This is done in under 2000 steps, and
-            written with Python. Constructed a traversal graph with algorithms
-            written for finding connected components.
+            LGBTQ Stories where you can share anonymous stories about your own
+            experiences, keep track of your own stories, and even edit or delete
+            them at a later time. React frontend, Node and Express backend.
+            HTML | CSS | JavaScript | React | NodeJS | Express | Bcryptjs | Knex
+            | SQLite | Styled Components
           </p>
           <ButtonProjects
             class="bodybutton"
             onclick="_blank"
-            href="https://github.com/kwmorlock/Graphs"
+            href="https://github.com/kwmorlock/lgbtqstories-be"
             onMouseOver={changeColor}
             onMouseLeave={changeColors}
           >
