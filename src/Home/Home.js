@@ -13,8 +13,8 @@ const Home = () => {
           <p>
             {" "}
             Welcome to my full stack developer portfolio! Feel free to snoop
-            around, and if you are looking for a unique experience check out
-            the interview section!
+            around, and if you are looking for a unique experience check out the
+            interview section!
           </p>
         </HomeLeft>
         <HomeLeft>
@@ -23,16 +23,16 @@ const Home = () => {
       </FlexHome>
       <FlexHomeTwo>
         <HomeLeft>
-          <img src={require("../Images/pinkflowers.jpg")} alt={"flower"}/>
+          <img src={require("../Images/pinkflowers.jpg")} alt={"flower"} />
         </HomeLeft>
         <HomeLeft>
-          <h2 class="mysite"> Expert Programmer </h2>
+          <h2 class="mysite"> Core Values </h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            Having the same core values is important to me. Some of the core
+            values I hold closest to my heart are inclusion, team work, and
+            giving back. We can all get a paycheck anywhere, so I would much
+            rather work with those that strive to make the world a better place.
           </p>
         </HomeLeft>
       </FlexHomeTwo>
