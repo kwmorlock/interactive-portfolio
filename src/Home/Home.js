@@ -38,13 +38,13 @@ const Home = () => {
       </FlexHomeTwo>
       <FlexHome>
         <HomeLeft>
-          <h2 class="mysite"> Expert Programmer </h2>
+          <h2 class="mysite"> My Style </h2>
           <p>
             {" "}
-            Quite possibly one of the best coders in all the land. If you like
-            dollars, I can make you many dollars. If you want a pretty website,
-            I can make you a super pretty website. To top it all off check out
-            these eyes they can find any syntax error.
+            My personal style is all about combining soft skills with tech
+            skills. I strongly feel good communication, teamwork, the right
+            attitude, and empathetic listening are just as important if not more
+            important than what tech skills one might know.
           </p>
         </HomeLeft>
         <HomeLeft>
